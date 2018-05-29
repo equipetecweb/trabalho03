@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="stylesheet" href="<?= base_url("includes/bootstrap/css/bootstrap.min.css");?>">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="<? echo base_url('includes/bootstrap/js/bootstrap.min.js') ?>"></script>
+
 </head>
 <body>
 
@@ -46,24 +46,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	        </div>
 	      </div>
 	    </nav>
-
+			<br><br>
 	    <!-- Page Content -->
 	    <div class="container">
 
 	      <!-- Introduction Row -->
-	      <h1 class="my-4">About Us
-	        <small>It's Nice to Meet You!</small>
+	      <h1 class="my-4">Quem Somos
+					<br>
+	        <small>Equipe de programadores em Tecnologias Web</small>
 	      </h1>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
 
 	      <!-- Team Members Row -->
 	      <div class="row">
 	        <div class="col-lg-12">
-	          <h2 class="my-4">Our Team</h2>
+	          <h2 class="my-4">Nossa Equipe</h2>
 	        </div>
 	        <div class="col-lg-3 col-sm-6 text-center mb-4">
-	          <img class="rounded-circle img-fluid d-block mx-auto" src="<?= base_url("images/mateus.jpeg");?>" alt="">
-	          <h3>Mateus Arruda
+						<a href="<?php echo base_url();?>index.php/mateus/sobre/">
+
+							<img class="rounded-circle img-fluid d-block mx-auto" src="<?= base_url("images/mateus.jpeg");?>" alt="">
+						</a>
+						<h3>Mateus Arruda
 	            <small>Programador</small>
 	          </h3>
 	          <p>Programador Python e Java atualmente passando fome por conta do desemprego.</p>
@@ -96,15 +100,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    </div>
 	    <!-- /.container -->
 
-	    <!-- Footer -->
-	    <footer class="py-5 bg-dark">
-	      <div class="container">
-	        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
-	      </div>
-	      <!-- /.container -->
-	    </footer>
-<script src="<?=base_url("static/js/jquery-3.2.1.slim.min.js")?>"></script>
-<script src="<?=base_url("static/js/popper.min.js")?>"></script>
-<script src="<?=base_url("static/js/bootstrap.min.js")?>"></script>
+<script src="<?=base_url("includes/bootstrap/js/jquery-3.1.1.js")?>"></script>
+<script src="<?=base_url("includes/bootstrap/js/popper.js")?>"></script>
+<script src="<?=base_url("includes/bootstrap/js/bootstrap.min.js")?>"></script>
 </body>
 </html>
