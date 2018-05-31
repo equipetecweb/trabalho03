@@ -73,11 +73,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	          <p>Programador Python e Java atualmente passando fome por conta do desemprego.</p>
 	        </div>
 	        <div class="col-lg-3 col-sm-6 text-center mb-4">
-	          <img class="rounded-circle img-fluid d-block mx-auto" src="<?= base_url("images/leiila.jpeg");?>" style="width: 200px; height: 200px" alt="">
+	        	<a href="<?php echo base_url();?>index.php/leila/sobre/">
+	          		<img class="rounded-circle img-fluid d-block mx-auto" src="<?= base_url("images/leiila.jpeg");?>" style="width: 200px; height: 200px" alt="">
+	          	</a>
 	          <h3>Leila Rodrigues
-	            <small>Graduanda em Engenharia da Computação/small>
+	            <small>Desenvolvedora</small>
 	          </h3>
-	          <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+	          <p>Atualmente trabalha com Visão Computacional, Redes Neurais, IoT e Comunicação por Luz Visível.</p>
 	        </div>
 	        <div class="col-lg-3 col-sm-6 text-center mb-4">
 	          <img class="rounded-circle img-fluid d-block mx-auto" src="<?= base_url("images/paulo.jpeg");?>" style="width: 200px; height: 200px" alt="">
