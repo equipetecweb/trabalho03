@@ -6,6 +6,8 @@ class Mateus extends CI_Controller {
   {
     //para cada controlador coloca 'image' com o caminho do arquivo da foto
     //de cada membro
+     $data['nome'] = "Mateus Arruda";
+    $data['cargo'] = "Programador";
     $data['image'] = base_url("images/mateus.jpeg");
     $data['description'] = "Me chamo Mateus Arruda e atualmente estudo na
     Universidade Federal do Ceará. Programador viciado em transformar café
