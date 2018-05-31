@@ -26,6 +26,8 @@ class Mateus extends CI_Controller {
      Nulla gravida ex et metus viverra condimentum eget eget lorem. Suspendisse feugiat erat id urna consectetur, sit amet blandit felis aliquet. Duis volutpat, risus non placerat vehicula, nisi dolor vehicula nunc, nec lobortis lectus elit ut lorem. Donec in ullamcorper turpis, aliquet efficitur sem. Cras rhoncus ac leo non viverra. In hac habitasse platea dictumst. Aenean pellentesque libero at metus dictum, et eleifend metus semper.";
     $this->load->view('header');
     $this->load->view('body',$data);
+    $this->load->view('footer');
+
   
   }
 }
